@@ -2,210 +2,261 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selim YILDIZ - Resume</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarthak Vishnoi</title>
 
-    <!--
-      - favicon
-    -->
-    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-    <!--
-      - custom css link
-    -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!--
-      - google font link
-    -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LXQLH66J4S"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-LXQLH66J4S');
-    </script>
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
     <!--
-      - #MAIN
+      - #SIDEBAR
     -->
 
-    <main>
+    <aside class="sidebar" data-sidebar>
 
-        <!--
-          - #SIDEBAR
-        -->
+      <div class="sidebar-info">
 
-        <aside class="sidebar" data-sidebar>
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Sarthak Vishnoi" width="80">
+        </figure>
 
-            <div class="sidebar-info">
+        <div class="info-content">
+          <h1 class="name" title="Sarthak Vishnoi">Sarthak Vishnoi</h1>
 
-                <figure class="avatar-box">
-                    <img src="./assets/images/profile_picture_1.jpg" alt="Selim YILDIZ" width="80">
-                </figure>
+          <p class="title">Quant</p>
+        </div>
 
-                <div class="info-content">
-                    <h1 class="name" title="Selim YILDIZ">Selim YILDIZ</h1>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-                    <p class="title">Lead Software Engineer</p>
-                </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
+      </div>
 
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
+      <div class="sidebar-info_more">
 
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <div class="sidebar-info_more">
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-                <div class="separator"></div>
-
-                <ul class="contacts-list">
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-
-                            <a href="mailto:selimyildiz91@gmail.com" class="contact-link">selimyildiz91@gmail.com</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <a href="tel:+46700093165" class="contact-link">+46 70 009 31 65</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="calendar-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Birthday</p>
-
-                            <time datetime="1991-02-18">February 18, 1991</time>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-
-                            <address>Lund, Skane, Sweden</address>
-                        </div>
-
-                    </li>
-
-                </ul>
-
-                <div class="separator"></div>
-
-                <ul class="social-list">
-
-                    <li class="social-item">
-                        <a href="https://stackoverflow.com/users/5519709/selim-yildiz" class="social-link">
-                            <ion-icon name="logo-stackoverflow"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://twitter.com/yildizseli" target="_blank" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://medium.com/@selimyildiz91" class="social-link">
-                            <ion-icon name="logo-medium"></ion-icon>
-                        </a>
-                    </li>
-
-                </ul>
-
+              <a href="mailto:sarthakvishnoi0110@gmail.com" class="contact-link">sarthakvishnoi0110@gmail.com</a>
             </div>
 
-        </aside>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14127856373" class="contact-link">+1 (412) 785-6373</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-10-01">October 01, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pittsburgh, Pennsylvania, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sarthakvishnoi" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/not_so_tall" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://github.com/SarthakVishnoi01" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
 
 
 
 
 
-        <!--
-          - #main-content
-        -->
+    <!--
+      - #main-content
+    -->
 
-        <div class="main-content">
+    <div class="main-content">
 
-            <!--
-              - #NAVBAR
-            -->
+      <!--
+        - #NAVBAR
+      -->
 
-            <nav class="navbar">
+      <nav class="navbar">
 
-                <ul class="navbar-list">
+        <ul class="navbar-list">
 
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About</a>
+          </li>
 
-                    <li class="navbar-item">
-                        <a href="index.html" class="navbar-link">About</a>
-                    </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
 
-                    <li class="navbar-item">
-                        <a href="resume.html" class="navbar-link active">Resume</a>
-                    </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Travel</a>
+          </li>
 
-                    <li class="navbar-item">
-                        <a href="blog.html" class="navbar-link">Blog</a>
-                    </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Books</a>
+          </li>
 
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link">Contact</a>
-                    </li>
-                </ul>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
 
-            </nav>
+        </ul>
+
+      </nav>
+
 
             <!--
               - #RESUME
             -->
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
 
             <article class="resume active" data-page="resume">
 
-                <header>
-                    <h2 class="h2 article-title">Resume</h2>
-                </header>
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Carnegie Mellon University, Pittsburgh</h4>
+
+                            <span>2022 - 2023</span>
+
+                            <p class="timeline-text">
+                                Master of Science in Computational Finance
+                            </p>
+                            
+                            <p class="timeline-text">
+                                - Awarded Academic Excellence in Mathematics Award <br />
+                                - Teaching Assistant: Data Analytics in Finance, Financial Computing, Natural Language Processing,
+                                Machine Learning 1, MSCF Investments
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Indian Institute of Technology, Delhi</h4>
+
+                            <span>2016 - 2020</span>
+
+                            <p class="timeline-text">
+                                Bachelor of Technology in Computer Science and Engineering, Minor Area in Economics
+                            </p>
+                            
+                            <p class="timeline-text">
+                                - Secured all India rank of 97 in JEE Advanced, 2016 <br />
+                                - Awarded Semester Merit scholarship twice <br />
+                                - Leadership: Spearheaded team of 18 to manage and publicize quiz club activities; conducted inter and intra-college quizzes <br />
+                                - Teaching Assistant: Instructed tutorials for 400 students in the Linear Algebra and Differential Equations course <br />
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                
 
                 <section class="timeline">
 
@@ -304,33 +355,7 @@
 
                 </section>
 
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Education</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Istanbul Technical University</h4>
-
-                            <span>2009 - 2014</span>
-
-                            <p class="timeline-text">
-                                Mathematics Engineering
-                            </p>
-
-                        </li>
-
-                    </ol>
-
-                </section>
+                
 
                 <section class="skill">
 
