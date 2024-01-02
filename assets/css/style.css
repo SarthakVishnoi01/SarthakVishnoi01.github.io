@@ -248,6 +248,23 @@ article.active {
   padding-bottom: 7px;
 }
 
+.continent-title {
+  position: relative;
+  padding-bottom: 7px;
+  padding-top: 20px;
+}
+
+.continent-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: var(--text-gradient-yellow);
+  border-radius: 3px;
+}
+
 .article-title::after {
   content: "";
   position: absolute;
@@ -967,7 +984,7 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
-.filter-list { display: none; }
+/* .filter-list { display: none; } */
 
 .filter-select-box {
   position: relative;
@@ -1970,5 +1987,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+
+  /* List items */
+  li {
+    margin-bottom: 10px; /* Adjust the value as needed to increase or decrease spacing */
+  }
 
 }
